@@ -1,0 +1,27 @@
+{
+    "name": "55679/vehicles",
+    "description": "CRUD de veiculos desenvolvido com HTML, CSS, JS, PHP e MySQL.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alisson Couto",
+            "email": "alissonvieiracaires@gmail.com"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        },
+        "files": [
+            "src/Config.php"
+        ]
+    },
+    "require": {
+        "coffeecode/router": "1.0.*",
+        "coffeecode/datalayer": "1.1.*",
+        "league/plates": "^3.4"
+    }
+}
